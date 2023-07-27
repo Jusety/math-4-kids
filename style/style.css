@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Luckiest Guy", cursive;
+    background-color: #e6e6ea;
+    overflow: hidden;
+}
+
+.container {
+    padding: 20px;
+    overflow: hidden;
+    background-color: red;
+}
+
+.container h1 a {
+    color: whitesmoke;
+    float: left;
+    margin-left: 10%;
+}
+
+.container ul {
+    list-style-type: none;
+    margin-left: 60%;
+    font-size: 25px;
+}
+
+.container li {
+    margin-top: 10px;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.container a {
+    text-decoration-line: none;
+}
+
+.current a::after {
+    content: "_";
+    background-color: whitesmoke;
+    font-size: 4px;
+    display: block;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 82% 18%;
+    height: 100vh;
+}
+
+.equation {
+    font-size: 67px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.equation h1 {
+    display: inline;
+    padding: 20px;
+}
+
+.answer-options {
+    font-size: 67px;
+    margin-right: 10px;
+}
+
+.answer-options h1 {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 3px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.answer-options h1:hover {
+    background-color: black;
+    color: white;
+}
